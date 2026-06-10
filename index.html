@@ -2,29 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Subhes Bhattacharyya | Researcher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subhes Bhattacharyya</title>
 
   <style>
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
-      line-height: 1.6;
-      background: #f5f7fa;
+      background: #f4f6f9;
       color: #333;
+      scroll-behavior: smooth;
     }
 
     header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      padding: 2rem;
       background: #1a2a3a;
       color: white;
-      padding: 2rem 1rem;
+      flex-wrap: wrap;
       text-align: center;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
     }
 
     nav {
       background: #2c3e50;
       text-align: center;
-      padding: 0.5rem;
+      padding: 0.7rem;
+      position: sticky;
+      top: 0;
     }
 
     nav a {
@@ -35,29 +48,49 @@
     }
 
     nav a:hover {
-      text-decoration: underline;
+      color: #1abc9c;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      background: white;
       padding: 20px;
     }
 
     section {
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
 
     h2 {
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 5px;
+      border-left: 4px solid #1abc9c;
+      padding-left: 10px;
     }
 
-    .highlight {
-      background: #eef4fb;
-      padding: 10px;
-      border-left: 4px solid #2c3e50;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #1abc9c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #16a085;
     }
 
     footer {
@@ -72,94 +105,9 @@
 <body>
 
 <header>
-  <h1>Subhes Bhattacharyya</h1>
-  <p>Director, RII of Sustainable Futures | Research & Innovation | Sustainability</p>
-</header>
+  <!-- Add your photo -->
+  <img src="profile.jpg" alt="Profile Photo">
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#research">Research</a>
-  <a href="#publications">Publications</a>
-  <a href="#projects">Projects</a>
-  <a href="#leadership">Leadership</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-
-  <!-- About -->
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      I am Director of Research, Innovation and Impact (RII) in Sustainable Futures,
-      working at the intersection of sustainability, systems transformation, and innovation.
-      My work focuses on addressing complex global challenges through interdisciplinary research,
-      strategic leadership, and engagement with policy and industry.
-    </p>
-
-    <div class="highlight">
-      <strong>Research Interests:</strong><br>
-      Sustainable futures • Climate transitions • Systems thinking • Innovation ecosystems • Policy impact
-    </div>
-  </section>
-
-  <!-- Research -->
-  <section id="research">
-    <h2>Research Areas</h2>
-    <ul>
-      <li><strong>Sustainable Futures:</strong> Designing pathways for resilient and low-carbon systems.</li>
-      <li><strong>Systems Innovation:</strong> Understanding and shaping socio-technical transitions.</li>
-      <li><strong>Policy & Impact:</strong> Translating research into actionable policy and real-world change.</li>
-    </ul>
-  </section>
-
-  <!-- Publications -->
-  <section id="publications">
-    <h2>Selected Publications</h2>
-    <ul>
-      <li>Bhattacharyya, S. (Year). <em>Title of publication</em>. Journal/Publisher.</li>
-      <li>Bhattacharyya, S. (Year). <em>Research report or policy paper</em>.</li>
-      <li>Bhattacharyya, S. (Year). <em>Book/Chapter</em>.</li>
-    </ul>
-    <p><em>(Replace with your actual publications or link to Google Scholar)</em></p>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Key Projects</h2>
-    <ul>
-      <li><strong>Sustainable Futures Initiative:</strong> Leading research on sustainability transitions and innovation.</li>
-      <li><strong>Policy & Impact Programme:</strong> Driving engagement between research, industry, and government.</li>
-    </ul>
-  </section>
-
-  <!-- Leadership -->
-  <section id="leadership">
-    <h2>Leadership & Roles</h2>
-    <ul>
-      <li>Director, Research, Innovation & Impact – Sustainable Futures</li>
-      <li>Strategic leadership in sustainability research and innovation</li>
-      <li>Collaboration with academic, policy, and industry stakeholders</li>
-    </ul>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your.email@organisation.ac.uk</p>
-    <p>
-      LinkedIn: <a href="#">Your LinkedIn</a><br>
-      Google Scholar: <a href="#">Your Scholar Profile</a><br>
-      ORCID: <a href="#">Your ORCID</a>
-    </p>
-  </section>
-
-</div>
-
-<footer>
-  <p>© 2026 Subhes Bhattacharyya</p>
-</footer>
-
-</body>
-</html>
-``
+  <div>
+    <h1>Subhes Bhattacharyya</h1>
+    <p>Director, Research • Innovation • Sustainable Futures</p>
