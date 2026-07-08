@@ -1,113 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Subhes Bhattacharyya</title>
-
-  <style>
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      margin: 0;
-      background: #f4f6f9;
-      color: #333;
-      scroll-behavior: smooth;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-      padding: 2rem;
-      background: #1a2a3a;
-      color: white;
-      flex-wrap: wrap;
-      text-align: center;
-    }
-
-    header img {
-      width: 120px;
-      border-radius: 50%;
-      border: 3px solid white;
-    }
-
-    nav {
-      background: #2c3e50;
-      text-align: center;
-      padding: 0.7rem;
-      position: sticky;
-      top: 0;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #1abc9c;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    section {
-      margin-bottom: 2.5rem;
-    }
-
-    h2 {
-      border-left: 4px solid #1abc9c;
-      padding-left: 10px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #1abc9c;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
-    }
-
-    .btn:hover {
-      background: #16a085;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #1a2a3a;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhesb - Academic Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">Subhesb</a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/journal-papers.html">Journal Papers</a></li>
+                    <li><a href="pages/book-chapters.html">Book Chapters</a></li>
+                    <li><a href="pages/books.html">Books</a></li>
+                    <li><a href="pages/reports.html">Reports</a></li>
+                    <li><a href="pages/conference-papers.html">Conferences</a></li>
+                    <li><a href="pages/talks.html">Talks</a></li>
+                    <li><a href="pages/tools.html">Tools</a></li>
+                    <li><a href="pages/reviews.html">Reviews</a></li>
+                    <li><a href="pages/blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<header>
-  <!-- Add your photo -->
-  <img src="profile.jpg" alt="Profile Photo">
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>New Posts</h3>
+                <ul class="posts-list">
+                    <li><a href="#">Latest Blog Post Title</a></li>
+                    <li><a href="#">Another Recent Post</a></li>
+                    <li><a href="#">Recent Update Here</a></li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <h3>Updates</h3>
+                <ul class="updates-list">
+                    <li><span class="date">2026-07-08</span>: New paper accepted</li>
+                    <li><span class="date">2026-07-01</span>: Conference presentation</li>
+                    <li><span class="date">2026-06-25</span>: Tool release</li>
+                </ul>
+            </div>
+            <div class="sidebar-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">GitHub Profile</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            </div>
+        </aside>
 
-  <div>
-    <h1>Subhes Bhattacharyya</h1>
-    <p>Director, Research • Innovation • Sustainable Futures</p>
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <section class="hero">
+                <h1>Welcome to My Academic Portfolio</h1>
+                <p>Exploring research, innovation, and knowledge sharing through publications, presentations, and tools.</p>
+            </section>
+
+            <section class="recent-works">
+                <h2>Recent Works</h2>
+                <div class="works-grid">
+                    <div class="work-card">
+                        <h3>Journal Paper</h3>
+                        <p>Latest published research in peer-reviewed journals</p>
+                        <a href="pages/journal-papers.html" class="btn">View Papers</a>
+                    </div>
+                    <div class="work-card">
+                        <h3>Conference Papers</h3>
+                        <p>Presentations and papers from academic conferences</p>
+                        <a href="pages/conference-papers.html" class="btn">View Conferences</a>
+                    </div>
+                    <div class="work-card">
+                        <h3>Books & Chapters</h3>
+                        <p>Published books and contributions to book chapters</p>
+                        <a href="pages/books.html" class="btn">View Books</a>
+                    </div>
+                    <div class="work-card">
+                        <h3>Tools & Resources</h3>
+                        <p>Open-source tools and research resources</p>
+                        <a href="pages/tools.html" class="btn">View Tools</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="debates">
+                <h2>Recent Debates & Discussions</h2>
+                <div class="debate-container">
+                    <article class="debate-post">
+                        <h3>Debate Title</h3>
+                        <p class="date">Posted on 2026-07-05</p>
+                        <p>Share your thoughts and perspectives on current research topics and academic discussions.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                    <article class="debate-post">
+                        <h3>Another Discussion</h3>
+                        <p class="date">Posted on 2026-06-28</p>
+                        <p>Engage with the academic community on important emerging topics.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Subhesb. All rights reserved.</p>
+        <p>Contact: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </footer>
+</body>
+</html>
